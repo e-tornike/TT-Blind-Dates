@@ -13,9 +13,7 @@ def function(
     arg7: bool,
     arg8: bool,
 ) -> str:
-
     path = os.path.join(arg1, arg2, "abc", "efg", "hij")
     random_function(path)
 
     return "Function was called."
-
